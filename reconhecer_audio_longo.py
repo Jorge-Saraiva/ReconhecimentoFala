@@ -23,7 +23,7 @@ def tratar_audio(rec, audio):
         arquivo.close()
         acabou = True
     except:
-        print("Não escutei")
+        print("Não entendi o que você falou")
 
 acabou = False
 

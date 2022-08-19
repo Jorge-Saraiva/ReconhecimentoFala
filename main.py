@@ -19,3 +19,4 @@ try:
     print(texto)
 except:
     print("Não peguei áudio nenhum")
+    

@@ -19,7 +19,7 @@ rec = sr.Recognizer()
 
 with sr.AudioFile("audio.wav") as arquivo_audio:
     audio = rec.record(arquivo_audio)
-    texto = rec.recognize_google(audio, language="pt-BR")
+    texto = rec.recognize_google(audio, language="en-US")
     print(texto)
 
 arquivo = open("gravacao.txt", "a")
